@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class NFactorial {
 
 // Taking Input from User 
