@@ -12,5 +12,6 @@ public class Main {
             SLL.createSingleLinkedin(n);
             SLL.printScreen();
         }
+        System.out.printf("Program Designed by Debanjan Mitra");
     }
 }
