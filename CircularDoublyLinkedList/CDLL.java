@@ -166,7 +166,7 @@ public class CDLL implements Operation {
         System.out.println("2. Delete");
         System.out.println("3. Search");
         System.out.println("4. Traverse");
-        System.out.println("5. Delete Entire DoubleLinked List");
+        System.out.println("5. Delete Entire Circular DoubleLinked List");
         System.out.print("(Y/N) ?");
         choice = s.next().charAt(0);
         if (choice == 'Y' | choice == 'y') {
