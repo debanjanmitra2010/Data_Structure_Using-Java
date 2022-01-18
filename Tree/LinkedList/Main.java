@@ -1,12 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        TreeNode drinks = new TreeNode("Drinks");
-        TreeNode hot = new TreeNode("Hot");
-        TreeNode cold = new TreeNode("Cold");
-        TreeNode tea = new TreeNode("Tea");
-        TreeNode coffee = new TreeNode("Coffee");
-        TreeNode wine = new TreeNode("Wine");
-        TreeNode bear = new TreeNode("Bear");
+        BasicTreeNode  drinks = new BasicTreeNode("Drinks");
+        BasicTreeNode hot = new BasicTreeNode("Hot");
+        BasicTreeNode cold = new BasicTreeNode("Cold");
+        BasicTreeNode tea = new BasicTreeNode("Tea");
+        BasicTreeNode coffee = new BasicTreeNode("Coffee");
+        BasicTreeNode wine = new BasicTreeNode("Wine");
+        BasicTreeNode bear = new BasicTreeNode("Bear");
         drinks.addChild(hot);
         drinks.addChild(cold);
         hot.addChild(tea);
